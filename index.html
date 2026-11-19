@@ -132,7 +132,7 @@ function val(f){
 form.addEventListener("change",function(){all.forEach(function(f){if(f.d){form.querySelector('[data-k="'+f.k+'"]').classList.toggle("hide",val({k:f.d,y:"radio"})!=="Yes")}})});
 
 // Paste the Web app URL from Google Apps Script here (see google-apps-script.gs)
-var ENDPOINT="https://script.google.com/macros/s/AKfycbwv8IBd_n87GKoFUkqlFxNGEFNtAuTfcZBVtm2c0y02uahKjaw-MtGCE-OySV1a0Z-YOA/exec";
+var ENDPOINT="https://script.google.com/macros/library/d/1WKgFNZZbjmQl-gRn-I6I3FpLELwUKTd_a5qhYDJS7vtiksZH55ZFghds/2";
 form.addEventListener("submit",async function(e){
   e.preventDefault();var ok=true,first=null,data={};
   all.forEach(function(f){
