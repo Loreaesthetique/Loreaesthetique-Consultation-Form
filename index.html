@@ -134,7 +134,7 @@ function val(f){
 form.addEventListener("change",function(){all.forEach(function(f){if(f.d){form.querySelector('[data-k="'+f.k+'"]').classList.toggle("hide",val({k:f.d,y:"radio"})!=="Yes")}})});
 
 // Paste the Web app URL from Google Apps Script here
-var ENDPOINT="https://script.google.com/macros/s/AKfycbwvc42ozOyEqmehtBHTWiLmUlF0rIzq8UXm5ZrYhCGpZKFm4hS2kPlz2RdyFfGdAszeKQ/exec";
+var ENDPOINT="https://script.google.com/macros/s/AKfycbyhXdrmOR38fFx0RSrGIzHkvqyzZaYTucko-dEr6lhQ9e03QDK352jjUt3fyi95i6zh5Q/exec";
 form.addEventListener("submit",async function(e){
   e.preventDefault();var ok=true,first=null,data={};
   all.forEach(function(f){
